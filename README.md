@@ -20,3 +20,14 @@ This project uses the AI4I Predictive Maintenance Dataset, containing telemetry 
 ### Target
 
 - Machine Failure
+
+## Data Quality Assessment
+
+Initial quality checks revealed:
+
+- No missing values
+- No duplicate records
+- Failure rate of approximately 3.39%
+- Highly imbalanced target variable
+
+The class imbalance motivates the use of SMOTE during model training.
