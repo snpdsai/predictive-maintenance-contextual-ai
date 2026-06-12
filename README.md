@@ -31,3 +31,15 @@ Initial quality checks revealed:
 - Highly imbalanced target variable
 
 The class imbalance motivates the use of SMOTE during model training.
+
+## Exploratory Analysis
+
+Exploratory visualization was performed to understand:
+
+- Temperature distributions
+- Rotational speed patterns
+- Torque behavior
+- Tool wear characteristics
+- Feature correlations
+
+Insights from this stage informed the subsequent feature engineering process.
