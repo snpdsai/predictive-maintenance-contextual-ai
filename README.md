@@ -43,3 +43,9 @@ Exploratory visualization was performed to understand:
 - Feature correlations
 
 Insights from this stage informed the subsequent feature engineering process.
+
+## Failure Pattern Analysis
+
+Machine failures were analyzed against key telemetry signals.
+
+Observations indicated that tool wear, torque, and rotational speed exhibit meaningful differences between failure and non-failure observations, motivating subsequent feature engineering efforts.
