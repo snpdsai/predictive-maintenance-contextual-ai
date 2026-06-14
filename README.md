@@ -49,3 +49,15 @@ Insights from this stage informed the subsequent feature engineering process.
 Machine failures were analyzed against key telemetry signals.
 
 Observations indicated that tool wear, torque, and rotational speed exhibit meaningful differences between failure and non-failure observations, motivating subsequent feature engineering efforts.
+
+## Telemetry Signal Preparation
+
+The raw telemetry dataset was prepared for feature engineering by identifying core sensor signals and analyzing their statistical properties.
+
+Primary signals include:
+
+- Air Temperature
+- Process Temperature
+- Rotational Speed
+- Torque
+- Tool Wear
