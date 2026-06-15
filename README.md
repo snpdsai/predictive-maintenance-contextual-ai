@@ -61,3 +61,15 @@ Primary signals include:
 - Rotational Speed
 - Torque
 - Tool Wear
+
+## Rolling Statistics Features
+
+To capture operational trends, rolling window features were generated using a 10-observation window.
+
+Generated features:
+
+- Rolling Mean
+- Rolling Standard Deviation
+- Rolling Variance
+
+for all primary telemetry signals.
