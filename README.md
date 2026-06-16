@@ -73,3 +73,14 @@ Generated features:
 - Rolling Variance
 
 for all primary telemetry signals.
+
+## Lag Features
+
+Historical telemetry information was incorporated through lag features.
+
+Generated:
+
+- Lag 1
+- Lag 2
+
+for all primary sensor signals, enabling the model to leverage previous machine states.
