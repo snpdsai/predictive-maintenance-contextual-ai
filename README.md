@@ -1,7 +1,7 @@
 # Predictive Maintenance with Contextual Data Fusion
 
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
-![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%201-blue)
+![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%202-blue)
 
 Industrial predictive maintenance system using IoT telemetry, contextual data fusion, SMOTE, and LightGBM.
 
@@ -84,3 +84,17 @@ Generated:
 - Lag 2
 
 for all primary sensor signals, enabling the model to leverage previous machine states.
+
+## Trend Features
+
+To capture temporal dynamics, change features were generated for all primary telemetry signals.
+
+Generated features:
+
+- Air Temperature Change
+- Process Temperature Change
+- Rotational Speed Change
+- Torque Change
+- Tool Wear Change
+
+These features quantify short-term operational shifts and provide additional predictive signals.
