@@ -1,7 +1,7 @@
 # Predictive Maintenance with Contextual Data Fusion
 
-![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
-![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%202-blue)
+![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)
+![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%202-blue?style=for-the-badge)
 
 Industrial predictive maintenance system using IoT telemetry, contextual data fusion, SMOTE, and LightGBM.
 
@@ -98,3 +98,18 @@ Generated features:
 - Tool Wear Change
 
 These features quantify short-term operational shifts and provide additional predictive signals.
+
+## Telemetry Feature Engineering
+
+Generated feature groups:
+
+| Feature Type | Count |
+|-------------|-------:|
+| Raw Features | 14 |
+| Rolling Features | 15 |
+| Lag Features | 10 |
+| Change Features | 5 |
+
+Total Features: 44
+
+The validated telemetry dataset serves as the foundation for contextual feature integration.
