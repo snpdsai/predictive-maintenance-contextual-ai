@@ -113,3 +113,17 @@ Generated feature groups:
 Total Features: 44
 
 The validated telemetry dataset serves as the foundation for contextual feature integration.
+
+## Contextual Data Integration
+
+To simulate real-world operating conditions, contextual variables were introduced:
+
+| Feature | Description |
+|----------|------------|
+| Ambient Humidity | Environmental condition |
+| Energy Load Index | Operational load estimate |
+| Production Demand | Simulated production pressure |
+| Days Since Maintenance | Maintenance recency |
+| Shift | Day/Night operation |
+
+These variables serve as external context signals for predictive maintenance modeling.
