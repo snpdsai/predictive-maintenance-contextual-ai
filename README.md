@@ -127,3 +127,17 @@ To simulate real-world operating conditions, contextual variables were introduce
 | Shift | Day/Night operation |
 
 These variables serve as external context signals for predictive maintenance modeling.
+
+## Contextual Data Fusion
+
+Interaction features were generated to combine telemetry signals with operational context.
+
+Generated Features:
+
+| Interaction Feature | Description |
+|---------------------|-------------|
+| Torque × Load | Mechanical stress under load |
+| Wear × Demand | Tool degradation under production pressure |
+| Temperature × Humidity | Thermal-environment interaction |
+
+These features provide richer representations of machine operating conditions.
