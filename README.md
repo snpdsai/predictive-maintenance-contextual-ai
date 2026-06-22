@@ -152,3 +152,14 @@ Validation confirmed:
 - 52 total columns
 
 The dataset is now ready for comparative modeling and ablation analysis.
+
+## Ablation Study Design
+
+Two predictive maintenance configurations are evaluated:
+
+| Configuration | Features |
+|--------------|----------|
+| Telemetry Only | Engineered telemetry features |
+| Telemetry + Context | Telemetry + contextual data fusion features |
+
+The objective is to quantify the contribution of contextual information to predictive performance.
