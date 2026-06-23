@@ -1,7 +1,7 @@
 # Predictive Maintenance with Contextual Data Fusion
 
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)
-![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%202-blue?style=for-the-badge)
+![Development Stage](https://img.shields.io/badge/Development%20Stage-Week%203-blue?style=for-the-badge)
 
 Industrial predictive maintenance system using IoT telemetry, contextual data fusion, SMOTE, and LightGBM.
 
@@ -163,3 +163,14 @@ Two predictive maintenance configurations are evaluated:
 | Telemetry + Context | Telemetry + contextual data fusion features |
 
 The objective is to quantify the contribution of contextual information to predictive performance.
+
+## Baseline Ablation Study
+
+Two baseline LightGBM models were trained to quantify the impact of contextual information.
+
+| Model | Macro F1 |
+|---------|---------:|
+| Telemetry Only | 0.8771 |
+| Telemetry + Context | 0.8806 |
+
+Adding contextual and interaction features improved Macro F1 by approximately 0.35 percentage points, demonstrating the value of contextual data fusion for predictive maintenance.
