@@ -174,3 +174,15 @@ Two baseline LightGBM models were trained to quantify the impact of contextual i
 | Telemetry + Context | 0.8806 |
 
 Adding contextual and interaction features improved Macro F1 by approximately 0.35 percentage points, demonstrating the value of contextual data fusion for predictive maintenance.
+
+## Class Imbalance Handling
+
+Machine failures account for approximately 3.39% of observations.
+
+To address this imbalance:
+
+- Stratified 5-Fold Cross Validation was used.
+- SMOTE was applied inside each training fold.
+- Validation folds were never oversampled.
+
+This approach prevents information leakage while improving minority-class learning.
