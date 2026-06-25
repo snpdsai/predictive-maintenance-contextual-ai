@@ -186,3 +186,16 @@ To address this imbalance:
 - Validation folds were never oversampled.
 
 This approach prevents information leakage while improving minority-class learning.
+
+## Feature Importance Analysis
+
+Feature importance analysis was performed using the final LightGBM model to improve model interpretability.
+
+### Key Findings
+
+- Torque and rotational speed were identified as the strongest telemetry predictors.
+- Rolling statistics and lag features effectively captured temporal machine behavior.
+- Contextual variables such as production demand and days since maintenance ranked among the most influential features.
+- The interaction feature **Torque × Energy Load** further demonstrated the benefit of contextual data fusion.
+
+These findings indicate that both engineered telemetry features and contextual information contribute to predictive maintenance performance.
