@@ -199,3 +199,17 @@ Feature importance analysis was performed using the final LightGBM model to impr
 - The interaction feature **Torque × Energy Load** further demonstrated the benefit of contextual data fusion.
 
 These findings indicate that both engineered telemetry features and contextual information contribute to predictive maintenance performance.
+
+## Final Model Evaluation
+
+The final LightGBM classifier was evaluated using an independent test set.
+
+Reported metrics include:
+
+- Macro F1
+- Precision
+- Recall
+- Average Precision
+- Confusion Matrix
+
+The trained model was exported as a serialized Joblib file for deployment and future inference.
