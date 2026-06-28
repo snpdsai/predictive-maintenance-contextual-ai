@@ -364,7 +364,3 @@ Interested in:
 
 * Data Science
 * Machine Learning
-* Data Engineering
-
-```
-```
